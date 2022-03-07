@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="Contenedor">
+        <div class="header">
+
+            <h1 class="titulo">Pasteleria SweetCake</h1>
+            <center>
+            <img class="logo"  src="Logo.png">
+            </center>
+        </div>
+
+      
+                 
+        <div class="contenido_pasteles">
+            
+
+            <div class="columnaB1">
+                <h3>Elige uno de nuestros sabores y uno de los frutos disponibles</h3>
+                <img  src="Sabor.png" width="280">
+                    <div class="sabores">
+                       
+                        <h5>Sabores</h5>   
+                        <img class="imagenprincipio" src="Chocolate.png" width="200" height="200"> 
+                        <img class="imagenderecha" src="Chocolate2.png"width="200" height="200">
+                        <p>Elige tu sabor</p>
+                        <form method="get">
+                            <input name="chocolateBlanco" type="checkbox"/>Chocolate Blanco
+                            <input name="chocolateAmargo" type="checkbox"/>Chocolate Amargo
+                            <input name="chocolateLeche" type="checkbox"/>Chocolate Con chocolateLeche
+                        </form> 
+                    </div>
+
+                
+            </div>
+        
+            <div class="columnaB">
+                <h3></h3>
+                <img  src="ingredientes.png" width="300">
+                <div class="ingredientes">
+                    <h5> Frutos</h5>
+                    <img src="Durazno.png" width="200" height="200">
+                    <img src="Fresa.png" width="200">
+                    <p>Elige tu ingrediente</p>
+                    <form method="get">
+                        <input name="fresas" type="checkbox"/>Fresas
+                        <input name="durazno" type="checkbox"/>Durazno
+                        <input name="frambueza" type="checkbox"/>Frambueza
+                    </form> 
+                </div>
+               
+            
+               
+            </div>
+           
+           
+        </div>
+        
+    
+    </div> 
+
+    
+    <div class="formulario">
+        <form class="itemsformulario">
+            
+            Nombre:<br>
+            <input type="text" name="nombre"><br>
+            
+            Apellidos:<br>
+            <input type="text" name="apellidos"><br>
+            
+            Teléfono:<br> 
+            <input type="tel" name="telefono" placeholder="(Código de área) Número"> <br>
+            
+            Dirección de correo electrónico:<br>
+            <input type="email" name="direccionemail" placeholder="Ej.: usuario@servidor.com"><br>
+
+            <input type="checkbox" name="vehicle1" value="Bike"> Acepto compartir mis datos<br>
+          </form>
+
+          <p> estos son el sabor y los ingredientes que seleccionaste:</p>
+        <div class="boton">
+            <h4>Realizar pago</h4>
+        </div>
+          
+
+    </div>
+    
+
+    
+</body>
+</html>

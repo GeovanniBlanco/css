@@ -1,0 +1,189 @@
+
+.titulo{
+    color: white;
+    text-align: center;
+    position: absolute;
+    }
+.header{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#EDAFB8;
+    border-radius: 30px;
+}
+
+.contenido_pasteles{
+    height: 300px;
+    background-color: #D6EADF;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    
+   
+}
+
+.logo{
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    background-color: transparent;
+    opacity: 100%;
+}
+
+.Menu{
+ width: 100%;
+ height: 200px;       
+}
+
+
+
+.pastel{
+    margin:auto;
+    display:block;
+    width: 500px;	
+}
+
+
+.imgInicial{
+align-content: center;
+}
+
+.cupcake{
+    width: 350px;
+    margin:auto;
+	display:block;
+}
+
+.columnaA{
+    width: 49%;
+    height: 400px;
+    background-color: #D6EADF;
+    float: right;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    margin-top: 10px;
+}
+.columnaB{
+    width: 49%;
+    height: 400px;
+    float: right;
+    border-radius: 20px;
+    
+    margin-top: 50px
+}
+.columnaB1{
+    width: 49%;
+    height: 280px;
+    background-color: #D6EADF;
+    float: left;
+    margin-top: 1px;
+    border-radius: 20px;
+}
+.listas{
+    list-style-type: disc;
+    color: black;
+    size: 12px;
+}
+
+.sabores{
+    width: 98%;
+    height: 400px;
+    background-color: bisque;
+    float: left;
+    border-radius: 50px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+.ingredientes{
+    width: 98%;
+    height: 400px;
+    background-color: #D6EADF;
+    float: right;
+    border-radius: 50px;
+    padding-bottom: 50px;
+}
+
+p{
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.titulo2{
+  width: 98%;
+  height: 20px;
+  background-color: aquamarine;  
+}
+
+.formulario{
+    width: 60%;
+    height: 300px;
+    background-color: #EDAFB8;
+    margin-top: 600px;
+    margin-left: 20%;
+    border-radius: 50px;
+    
+    
+}
+
+.itemsformulario{
+    text-align: center;
+
+    
+}
+
+.boton{
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background-color: blanchedalmond;
+    margin-left: 40%;
+    border-radius: 15px;
+    border-style: double;
+    
+}
+
+.inventario{
+    width: 70%;
+    height: 300px;
+    background-color: #FFDFD3;
+    border-radius: 30px;
+    margin-top: 12px;
+    margin-left: 15%;
+    padding-top: 20px;
+    
+}
+
+.tabla{
+    text-align: center;
+    background-color: white;
+    border-color: #FFDFD3;
+    border-radius: 20px;
+    border: #FFDFD3 solid;
+    margin-left: 38%;
+}
+tr{
+    border: #FFDFD3 solid 3px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+/*
+.imagenprincipio{
+    position: relative;
+    margin-left: 13px;
+}
+
+.imagenderecha{
+    position: relative;
+    margin-left: 70%;
+    }
+*/
